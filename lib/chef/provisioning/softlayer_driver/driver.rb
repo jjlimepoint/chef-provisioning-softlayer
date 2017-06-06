@@ -208,7 +208,7 @@ module Provisioning
         if machine_spec.location
           server_id = machine_spec.location["id"]
           action_handler.perform_action "Destroy machine #{server_id} ..." do
-            delete_instance machine_spec
+            delete_node machine_spec
           end
         end
 

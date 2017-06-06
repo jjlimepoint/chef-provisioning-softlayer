@@ -283,7 +283,7 @@ module Provisioning
 
      def start_node(identifier, instance_type)
         case  instance_type
-        when  INSTANCE_ATTR[:virtual_server][:TYPE]
+        when  INSTANCE_TYPES[:virtual_server][:name]
           start_instance(identifier)
         else
           start_instance_bm(identifier)
