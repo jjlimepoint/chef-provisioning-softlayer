@@ -13,7 +13,7 @@
 class Chef
 module Provisioning
 module SoftlayerDriver
-  VERSION = '4.1.0'
+  VERSION = '5.0.0'
 end
 end
 end

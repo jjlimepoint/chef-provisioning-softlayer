@@ -24,9 +24,9 @@ Gem::Specification.new do |s|
   s.email = 'leow@ca.ibm.com'
   s.homepage = 'http://my.imdemocloud.com'
 
-  s.add_dependency "chef",              "~> 12.4.0"
-  s.add_dependency 'chef-provisioning', '~> 1.5.0'
-  s.add_dependency 'softlayer_api', '~> 3.2.0'
+  s.add_dependency "chef"
+  s.add_dependency 'chef-provisioning'
+  s.add_dependency 'softlayer_api'
   
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rake'
